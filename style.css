@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+
+
+
+body{
+	font-family: sans-serif;
+	background-image: url(img/351db477-4609-4e44-9272-53b64dc5de0d.jpg);
+}
+
+h3{
+    text-align: center; 
+    font-weight: 300px;
+}
+
+.kotak-login{
+    width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 20px;
+}
+.form-login{
+    /*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E5E9F2;
+    margin-top: 10px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.tombol{
+    background: #2447F9;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.tombol-hitam{
+    background-color: #34364A;
+    color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+body .kotak-login .tombol-hitam img {
+    width: 23px;
+    height: 23px;
+    margin-bottom: -7px;
+    margin-top: -19px;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+
